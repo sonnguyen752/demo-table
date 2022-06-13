@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>formr</title>
+</head>
+<body>
+    <h1><b>Order Form</b></h1>
+    <p> What would you like to buy?</p>
+    <form>
+        <select name="ban muon mua gi" id="to buy">
+            <option value="0">Honda</option>
+            <option value="1">Huynhdai</option>
+            <option value="2">Kia</option>
+            <option value="3">GM</option>
+        </select>
+        <p>How many would you like to order?</p>
+        <input type="radio" name="gi do"> 1-1000$<br>
+        <input type="radio" name="gi do"> 2-2000$<br>
+        <input type="radio" name="gi do"> 3-3000$<br>
+        <input type="radio" name="gi do"> 4-4000$
+        <p>Name <span style="color: red">*</span> </p>
+        <input type="text" name="fisrt name"placeholder="FirstName"><br>
+        <input type="text" name="last name"placeholder="lastName">
+        <p>Email</p>
+        <input type="email" name="email">
+        <p>phone- number</p>
+        <input type = "text" name="phone1" size="5"/> -
+        <input type = "text" name="phone2" size="5"/> -
+        <input type = "text" name="phone3" size="5"/>
+        <p><input type = "button" name="btSubmit" value="Submit"/></p>
+        <style>
+            .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+            }
+            </style>
+            <form method="get" action="simpleform.html" class = "wufoo"></form>
+    </form>
+</body>
+</html>
